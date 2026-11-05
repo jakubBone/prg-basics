@@ -11,4 +11,4 @@ b = 8
 # diagonal = square root of (a^2 + b^2)
 diagonal = math.sqrt(a**2 + b**2)
 
-print("Diagonal:", diagonal)
+print(f'Diagonal: {diagonal:.2f}')
