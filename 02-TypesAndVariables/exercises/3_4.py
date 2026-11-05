@@ -8,4 +8,4 @@ speed_kmh = 70
 # 1km=1000m, 1h=3600s
 speed_ms = (speed_kmh * 1000) / 3600
 
-print(speed_kmh, "km/h = ", speed_ms, "m/s")
+print(f'{speed_kmh} km/h = {speed_ms:.2f} m/s')
